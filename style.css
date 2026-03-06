@@ -1,0 +1,19 @@
+h2 {
+    font-size: 25px;
+}
+
+
+.opcao {
+    font-size: 20px;  /* Mude esse valor conforme quiser */
+}
+
+input[type="checkbox"] {
+   width: 20px;
+   height: 15px;
+}
+
+body {
+    background-image: url(images/photo-1738831920727-73e17adc5b87.avif);
+    color: white;
+    zoom: 1.1;
+}

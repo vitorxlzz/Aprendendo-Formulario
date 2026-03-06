@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site para testes de desenvolvimento web">
+    <title>Site para Testes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 40px;">Quizz Cronicamente Online</h1>
+        <p style="font-size: 25px;">Teste seu conhecimento para descobrir se voce tem uma sabedoria balançeada sobre o universo</p>
+    </header>
+    <main>
+        <!--Introdução-->
+        <section>
+            <h2 style="font-size: 25px;">Sobre esse Quiz</h2>
+            <p>Este quiz foi criado para testar o conhecimento geral sobre o seu nivel de Podridão Mental (Brainrot), o
+                quanto de <b>aura</b> voce tem farmado ou até o seu grau de autismo.</p>
+            <p>Aqui voce encontrara diversas perguntas que farão voce duvidar da sua propria memória, percepção e
+                sanidade</p>
+        </section>
+        <!-- Pergunta 1-->
+        <section>
+            <h2>Pergunta 1: Em uma situação hipotetica de apenas uma decisão,oque o Vitor escolheria?</h2>
+            <form>
+                <input type="radio" value="Skin Exaltada do Viego" id="p1a" name="pergunta1">
+                <label for="p1a">Skin Exaltada do Viego</label> <br>
+                <input type="radio" value="Remoção da Karma nas filas ranqueadas" id="p1b" name="pergunta1">
+                <label for="p1b">Remoção da Karma nas filas ranqueadas</label> <br>
+                <input type="radio" value="Volta do Hemodrenario" id="p1c" name="pergunta1">
+                <label for="p1c">Volta do Hemodrenario</label> <br>
+                <input type="radio" value="Samira do BBB 26" id="p1d" name="pergunta1">
+                <label for="p1d">Samira do BBB 26</label> <br>
+
+            </form>
+        </section>
+        <!-- Pergunta 2-->
+        <section>
+            <h2> Os mestres de Marcola Putifero são: Jeffrey _______,P. _____ e Adolf ______
+            </h2>
+            <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Responda imediatamente..."
+                    style="height: 40px; width: 200px;">
+            </form>
+        </section>
+        <!-- Pergunta 3-->
+        <section>
+            <h2 style="font-size: 35px;">Who is this guy?</h2>
+            <figure>
+                <img src="images/Screenshot_3.png" alt="Quem é esse cara?" width="500px"> <br>
+                <br>
+                <input type="text" id="p3" name="pergunta3" placeholder="Cuidado..."
+                    style="height: 30px; width: 150px;" >
+            </figure>
+        </section>
+        <!-- Pergunta 4-->
+        <section>
+            <h2>Pornelius Hubert foi nomeado em homenagem a um centurião romano conhecido como Flavius Pornelius
+                Erectus, um amigo próximo de Biggus Dickus.</h2>
+            <p style="font-size: 25px;">Em que Ano,Pornelius Hurbet foi morto em combate na luta contra o imperio
+                nazista?</p>
+            <form>
+                <input type="date" id="p4" name="pergunta4" style="height: 30px; width: 175px;">
+            </form>
+        </section>
+        <!-- Pergunta 5-->
+        <section>
+            <h2>Quais elementos da lista abaixo possuem aura?</h2>
+            <form>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Gabriel Pós-Exercito">
+                <label for="p5a" class="opcao">Gabriel Pós-Exercito</label>
+
+                <input type="checkbox" id="p5b" name="pergunta5" value="Clemente Galante">
+                <label for="p5b" class="opcao">Clemente Galante</label>
+
+                <input type="checkbox" id="p5c" name="pergunta5" value="Wander Pokemon Go">
+                <label for="p5c" class="opcao">Wander Pokemon Go</label>
+
+                <input type="checkbox" id="p5d" name="pergunta5" value="Arthur Vilão do Ceiva">
+                <label for="p5d" class="opcao">Arthur Vilão do Ceiva</label>
+            </form>
+        </section>
+        <!-- Pergunta 6-->
+         <section>
+            <h2>Faça o upload da pior da imagem que voce tiver guardada</h2>
+            <form>
+                <input type="file" id="p6" name="pergunta6" accept="image/*">
+            </form>
+         </section>
+ <!-- Formulario de Feedback-->
+ <section> 
+    <h2>Me de o seu feedback</h2>
+    <form>
+        <fieldset>
+            <legend>Informações de contato:</legend>
+        <label for="name">Nome:</label>
+       <input type="text" id="name" name="name" > <br>
+        <label for="email">Email:</label>
+       <input type="email" id="email" name="email" > <br>
+       <label for="comentarios">Comentarios:</label> <br>
+       <textarea id="comentarios" name= comentarios rows="4" cols="50" placeholder="Digite seus comentarios aqui"> </textarea> <br>
+       <br>
+       <button onclick="alert('FEEDBACK ENVIADO')">Envie o Feedback</button>
+       </fieldset>
+    </form>
+ </section> <br>
+
+    </main>
+    <footer style="font-size: 25px;">© Quiz para gays,todos os direitos reservados</footer>
+</body>
+
+</html>
